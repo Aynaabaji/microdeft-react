@@ -1,0 +1,15 @@
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.prod_image>img{
+    width: 100%;
+}
+
+.prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
