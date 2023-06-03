@@ -5,11 +5,11 @@ const Form = () => {
     <div className='container'>
       <form action="" className='form'>
         <label htmlFor="">Product Name</label>
-        <input className='form-control' type="text" name="product" id="product" />
+        <input className='form-control' type="text" />
         <label htmlFor="">Description</label>
-        <input className='form-control' type="text" name="product" id="product" />
+        <input className='form-control' type="text" />
         <label htmlFor="">Image URL</label>
-        <input className='form-control' type="text" name="product" id="product" />
+        <input className='form-control' type="text" />
         <label htmlFor="">Category</label>
         <select className='form-control' name="" id="">
             <option value="1">Electronics</option>
@@ -18,7 +18,7 @@ const Form = () => {
             <option value="1">Women's Cloathing</option>
         </select>
         <label htmlFor="">Product Name</label>
-        <input className='form-control' type="text" name="product" id="product" /><br />
+        <input className='form-control' type="text" /><br />
         <input className='form-control' type="submit" value="Add Products" />
       </form>
     </div>
